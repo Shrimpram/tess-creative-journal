@@ -30,13 +30,14 @@ VAR calledAngel = ""
 = Dear_Darling
 "Dear, darling Tessy!" {calledAngel} whispered. {calledAngel == "Mr Clare": "Don't, for Heaven's sake, Mister me any more. I have hastened back so soon because of you!" (Ch. XXVII)|"I have hastened back so soon because of you!" (Ch. XXVII)}
 
-Angel rummaged around in the drawers before turning around at once. His eyes looked through you as if he were a wizard who could read your every thought.
+{calledAngel} rummaged around in the drawers before turning around at once. His eyes looked through you as if he were a wizard who could read your every thought.
 
 "I may as well say it now as later, dearest," {calledAngel} resumed gently. "I shall soon want to marry, and, being a farmer, you see I shall require for my wife a woman who knows all about the management of farms. Will you be that woman, Tessy?" (Ch. XXVII) -> Marriage_Question
 
 = Marriage_Question
 
-+ "Yes" -> Wedding
++ "Yes"
+  -> Waiting.Agreed_to_Wedding
 + ["No"] -> Marriage_Refused
 
 = Marriage_Refused
@@ -54,13 +55,51 @@ Angel rummaged around in the drawers before turning around at once. His eyes loo
 -> END
 
 == Waiting ==
-And surely enough, just as he said, {calledAngel} left
+And surely enough, just as he said, {calledAngel} left.
+-> Marriage_Question_2
+
+= Marriage_Question_2
+After many more visits from him you finally ended up together again while running some simple errands. {calledAngel} was relentless and brought up that question again
+
+"Well, dear—about that question of mine—that long-standing question?" (Ch. XXX)
+
+You were stuck, no matter what answer you gave him there was no escaping. All the norms and cultural expectations that you had been raised to follow reared their fangs against the love you cherished so dearly. Who would win?
+
+* [Divert (talk about your d'Urberville history)]
+  <> "I fear my history may upset you. To tell you the truth, I-I—am not a Durbeyfield, but a d’Urberville—a descendant of the same family as those that owned the old house we passed. And—we are all gone to nothing!" (modified from Ch. XXX)
+
+  "A d'Urberville? Now then Tessy that's no trouble, surely you didn't think your family history would cause me to love you any less."
+
+  "No... I-" {calledAngel} cut you off before you could finish.
+
+  "Not at all. Now then, if that's all then I shall set the date for our wedding as soon as possible!"
+  -> Agreed_to_Wedding
+
+* [Tell {calledAngel} the truth]
+
+* [Break up with {calledAngel}] -> Breakup
 
 
+= Agreed_to_Wedding
+Shocked at the consequences of what had just happened, all your mind permitted you to do was stare and nod along as he finalized your future.
+-> Letter
+
+= Truth
+<>
+
+
+== Letter ==
 -> END
 
 == Wedding ==
 Here comes the bride
+-> END
+
+
+== Told_Angel ==
+
+= Told_Pre_Wedding
+
 -> END
 
 == Breakup ==
