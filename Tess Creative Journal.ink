@@ -5,13 +5,13 @@ The drowsiness of your sleep fought against the clobber of horseshoes getting lo
 = Sleeping
 
 * [Wake up] -> Wake
-+ {snooze < 3} [Snooze] {snooze <2: Your eyelids drooped down as you fall into a slumber again.|The door slammed shut, awakening you from your sleep.}
-~ snooze++
--> Sleeping
+  + {snooze < 3} [Snooze] {snooze <2: Your eyelids drooped down as you fall into a slumber again.|The door slammed shut, awakening you from your sleep.}
+  ~ snooze++
+  -> Sleeping
 
 
 = Wake
-{snooze<3: You woke up.|You begrudgingly got up.} -> Enter_Angel
+{snooze < 3: You woke up.|You begrudgingly got up.} -> Enter_Angel
 
 = Enter_Angel
 You peered over to the door as a figure you immediately recognized walked in. Mr. Angel Clare, your would be suitor, had it not been for the extenuating circumstances you were in.
@@ -44,16 +44,19 @@ Angel rummaged around in the drawers before turning around at once. His eyes loo
 
 "But, Tess!" he exclaimed, "Surely you love me?"
 
-* "I do!"
++ "I do!"
 "But why then? Have I asked you too suddenly?"
   * * "Yes-I did not expect it." (Ch. XXVII)
-  "Very well then, Tessy, I will give you time." {calledAngel} said. -> Waiting
+      "Very well then, Tessy, I will give you time." {calledAngel} said. -> Waiting
   * * ["I take that back, I don't love you."] -> Breakup
-* ["I don't!"] -> Breakup
++ ["I don't!"] -> Breakup
 
 -> END
 
 == Waiting ==
+And surely enough, just as he said, {calledAngel} left
+
+
 -> END
 
 == Wedding ==
@@ -67,8 +70,7 @@ Here comes the bride
 
 "Tessy dear, come now, this is hardly the time for jokes." {calledAngel} tried to reason, his voice showed the slightest hints of pleading.
 
-* "Yes it was a joke.["] I never really meant that, though it was probably in poor taste, my apologies. Now then, as far as your actual question..." -> Marriage_Question
-* "I wasn't joking[."] {calledAngel}, why do you think I would joke about something like that. Now then, it's probably time you packed your things and left."
-I ushered {calledAngel} out the door, closing it and locking it behind him. With the latch of the deadbolt I felt a relief, but a looming feeling that I had made some sort of mistake.
-
--> END
++ "Yes it was a joke.["] I never really meant that, though it was probably in poor taste, my apologies. Now then, as far as your actual question..." -> Marriage_Question
++ "I wasn't joking[."] {calledAngel}, why do you think I would joke about something like that. Now then, it's probably time you packed your things and left."
+  I ushered {calledAngel} out the door, closing it and locking it behind him. With the latch of the deadbolt I felt a relief, but a looming feeling that I had made some sort of mistake.
+  Fin.-> END
