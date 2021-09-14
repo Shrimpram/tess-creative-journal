@@ -75,7 +75,7 @@ You were stuck, no matter what answer you gave him there was no escaping. All th
   "Not at all. Now then, if that's all then I shall set the date for our wedding as soon as possible!"
   -> Agreed_to_Wedding
 
-* [Tell {calledAngel} the truth] -> Truth
+* [Tell {calledAngel} the truth] -> Waiting.Truth
 
 * [Break up with {calledAngel}] -> Breakup
 
@@ -113,9 +113,8 @@ The next couple of days blurred together as you sat in your home preparing for t
 
 VAR confessAtWedding = false
 * [Write a letter to {calledAngel} confessing your past] -> Letter
-* [Confess to {calledAngel} at the wedding]
   ~ confessAtWedding = true
-  -> Wedding
+* [Confess to {calledAngel} at the wedding] -> Wedding
 * [Run away] -> Run_Away
 
 
