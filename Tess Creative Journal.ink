@@ -85,7 +85,7 @@ Shocked at the consequences of what had just happened, all your mind permitted y
 -> Pre_Wedding
 
 = Truth
-[You] bent forward, at which each diamond on [your] neck gave a sinister wink like a toad’s; and pressing [your] forehead against his temple [you] entered on [your] story of [your] acquaintance with Alec d’Urberville and its results, murmuring the words without flinching, and with [your] eyelids drooping down." (Ch. XXXIV)
+You bent forward, at which each diamond on your neck gave a sinister wink like a toad’s; and pressing your forehead against his temple you entered on your story of your acquaintance with Alec d’Urberville and its results, murmuring the words without flinching, and with your eyelids drooping down." (Modified Ch. XXXIV)
 
 After finishing your story the silence stuck in the air, as if it had stolen both of your voices. Though, even if you could speak neither would dare be the first to acknowledge what had just been said. {calledAngel} finally cracked, pleading, "Am I to believe this? From your manner I am to take it as true. O you cannot be out of your mind! You ought to be! Yet you are not... My wife, my Tess—nothing in you warrants such a supposition as that?" (Ch. XXXV)
 
