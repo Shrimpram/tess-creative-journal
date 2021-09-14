@@ -89,7 +89,7 @@ Shocked at the consequences of what had just happened, all your mind permitted y
 
 After finishing your story the silence stuck in the air, as if it had stolen both of your voices. Though, even if you could speak neither would dare be the first to acknowledge what had just been said. {calledAngel} finally cracked, pleading, "Am I to believe this? From your manner I am to take it as true. O you cannot be out of your mind! You ought to be! Yet you are not... My wife, my Tess—nothing in you warrants such a supposition as that?" (Ch. XXXV)
 
-Just as he had finished saying that, {calledAngel} let out a laugh, followed by another, and another, and erupted in a shrill cacophany of laughter, each laugh sending chills down your spine.
+Just as he had finished saying that, {calledAngel} let out a laugh, followed by another, and another, and erupted in a shrill cacophony of laughter, each laugh sending chills down your spine.
 
 "Angel, Angel! what do you mean by that laugh?” you cried out. “Do you know what this is to me?" (Ch. XXXV)
 
@@ -103,7 +103,7 @@ You looked at him in shock, failing to comprehend what he had just said.
 
 "Another woman in your shape." (Ch. XXXV)
 
-The realization of what {calledAngel} meant crept up on you, and the fangs of society seemed to have won. All you could do now was to let {calledAngel} do what he wanted, which it seemed he knew as well, grabbing his coat and slamming the door beind you, its reverberations echoing off the stone cold walls.
+The realization of what {calledAngel} meant crept up on you, and the fangs of society seemed to have won. All you could do now was to let {calledAngel} do what he wanted, which it seemed he knew as well, grabbing his coat and slamming the door behind you, its reverberations echoing off the stone cold walls.
 
 Fin. -> END
 
@@ -111,16 +111,44 @@ Fin. -> END
 == Pre_Wedding ==
 The next couple of days blurred together as you sat in your home preparing for the wedding that was to come. You came to the conclusion that you realistically had three choices:
 
-* Write a letter to {calledAngel} confessing your past
-* Confess to {calledAngel} at the wedding
+VAR confessAtWedding = false
+* [Write a letter to {calledAngel} confessing your past] -> Letter
+* [Confess to {calledAngel} at the wedding]
+  ~ confessAtWedding = true
+  -> Wedding
 * [Run away] -> Run_Away
 
 
 = Run_Away
-You run away. -> END
+You packed your things in a hurry and opened the door, calling for a carriage to take you far from here and leaving a little extra money that would seal the driver's lips. As the houses turned into huts which eventually turned into forest you felt oddly free, as though the shackles of a love destined to fail had just been released.
+
+Fin. -> END
+
+
+== Letter ==
+Though going back to that day at The Chase brought you pain, you started penning your confession to {calledAngel}. The scratching of the quill on paper etched what you had once relegated to the deepest darkest crevices of your mind onto a medium for all to see. Finishing the last line and signing your name you folded up the confession and tucked it into your pocket.
+
+* [Slip the confession under {calledAngel}'s door] -> Door
+* [Hold on to it until your wedding] You held on to the confession, and the days flew by until it was the day of your wedding -> Wedding
+
+= Door
+You crept out of your desk and went over to {calledAngel}'s room. He was out for the day so you would have to wait until nightfall to see his reaction. Sliding the note under the door you went back to your room and crawled under the sheets falling into a slumber of nervousness.
+
+Once you awoke in the evening, you didn't feel any more refreshed than you had in the afternoon. Walking over to {calledAngel}'s door you saw no light coming from underneath it, which was odd as he was usually back by now.
+-> Door_Options
+
+= Door_Options
++ [Knock]
+  You knocked on the door, no response.
+  -> Door_Options
+* [Break it down]
+  You kicked the wood off its hinges. The door fell over and the hollow *clack* of the wood on the stone floor reveled an empty room.
+  No letter, no {calledAngel}, and all of his belongings missing, having vanished as fleetingly as the love that once existed between you.
+  Fin. -> END
 
 == Wedding ==
-Here comes the bride
+The day of the wedding was upon you, can donning your wedding gown like a suit of armor you hopped in the carriage {calledAngel} sent for you, prepared to slay the fanged beast.
+You walked into the wedding hall, chock full of not only your family but
 -> END
 
 
