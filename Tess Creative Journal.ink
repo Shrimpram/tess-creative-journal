@@ -36,7 +36,7 @@ VAR calledAngel = ""
 
 = Marriage_Question
 
-+ "Yes"
++ "Yes["] I will marry you."
   -> Waiting.Agreed_to_Wedding
 + ["No"] -> Marriage_Refused
 
@@ -82,25 +82,47 @@ You were stuck, no matter what answer you gave him there was no escaping. All th
 
 = Agreed_to_Wedding
 Shocked at the consequences of what had just happened, all your mind permitted you to do was stare and nod along as he finalized your future.
--> Letter
+-> Pre_Wedding
 
 = Truth
-<>
+[You] bent forward, at which each diamond on [your] neck gave a sinister wink like a toad’s; and pressing [your] forehead against his temple [you] entered on [your] story of [your] acquaintance with Alec d’Urberville and its results, murmuring the words without flinching, and with [your] eyelids drooping down." (Ch. XXXIV)
+
+After finishing your story the silence stuck in the air, as if it had stolen both of your voices. Though, even if you could speak neither would dare be the first to acknowledge what had just been said. {calledAngel} finally cracked, pleading, "Am I to believe this? From your manner I am to take it as true. O you cannot be out of your mind! You ought to be! Yet you are not... My wife, my Tess—nothing in you warrants such a supposition as that?" (Ch. XXXV)
+
+Just as he had finished saying that, {calledAngel} let out a laugh, followed by another, and another, and erupted in a shrill cacophany of laughter, each laugh sending chills down your spine.
+
+"Angel, Angel! what do you mean by that laugh?” you cried out. “Do you know what this is to me?" (Ch. XXXV)
+
+"Tessy" he started, before correcting himself. "No. I shouldn't call you that, my Tessy was a different woman. You are some other woman who has taken her place."
+
+You looked at him in shock, failing to comprehend what he had just said.
+
+"I repeat, the woman I have been loving is not you."
+
+"But who?"
+
+"Another woman in your shape." (Ch. XXXV)
+
+The realization of what {calledAngel} meant crept up on you, and the fangs of society seemed to have won. All you could do now was to let {calledAngel} do what he wanted, which it seemed he knew as well, grabbing his coat and slamming the door beind you, its reverberations echoing off the stone cold walls.
+
+Fin. -> END
 
 
-== Letter ==
--> END
+== Pre_Wedding ==
+The next couple of days blurred together as you sat in your home preparing for the wedding that was to come. You came to the conclusion that you realistically had three choices:
+
+* Write a letter to {calledAngel} confessing your past
+* Confess to {calledAngel} at the wedding
+* [Run away] -> Run_Away
+
+
+= Run_Away
+You run away. -> END
 
 == Wedding ==
 Here comes the bride
 -> END
 
-
-== Told_Angel ==
-
-= Told_Pre_Wedding
-
--> END
 
 == Breakup ==
 "{calledAngel} I- I do hate to have to let down you so harshly. I fear though that a divide has come between us. The way I see you now, simply isn't the same as how I used to."
