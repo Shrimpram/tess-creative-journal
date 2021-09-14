@@ -111,9 +111,7 @@ Fin. -> END
 == Pre_Wedding ==
 The next couple of days blurred together as you sat in your home preparing for the wedding that was to come. You came to the conclusion that you realistically had three choices:
 
-VAR confessAtWedding = false
 * [Write a letter to {calledAngel} confessing your past] -> Letter
-  ~ confessAtWedding = true
 * [Confess to {calledAngel} at the wedding] -> Wedding
 * [Run away] -> Run_Away
 
@@ -149,14 +147,10 @@ Once you awoke in the evening, you didn't feel any more refreshed than you had i
 The day of the wedding was upon you, can donning your wedding gown like a suit of armor you hopped in the carriage {calledAngel} sent for you, prepared to slay the fanged beast.
 You walked into the wedding hall, chock full of not only your family but the Clares too. You walked up to the altar with {calledAngel} and the priest, coming up to his side.
 
-{ confessAtWedding:
-  * [Confess to Angel] -> Waiting.Truth
-  * [Marry Him] You went through with the vows, saying the "I do's" and slipping each others' rings over your fingers. As {calledAngel}'s ring slipped over yours you felt his cold fingers touch your hand, resembling the fangs of a great beast.
-  -> END
-- else:
+* [Confess to Angel]
+  -> Waiting.Truth
 * [Marry Him] You went through with the vows, saying the "I do's" and slipping each others' rings over your fingers. As {calledAngel}'s ring slipped over yours you felt his cold fingers touch your hand, resembling the fangs of a great beast.
   -> END
-}
 
 
 == Breakup ==
