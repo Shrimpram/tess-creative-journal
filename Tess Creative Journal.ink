@@ -1,4 +1,5 @@
 VAR snooze = 0
+VAR fangs = false
 
 The drowsiness of your sleep fought against the clobber of horseshoes getting louder by the second. Two voices talked for a few seconds before the door swung open. -> Sleeping
 
@@ -64,6 +65,7 @@ After many more visits from him you finally ended up together again while runnin
 "Well, dear—about that question of mine—that long-standing question?" (Ch. XXX)
 
 You were stuck, no matter what answer you gave him there was no escaping. All the norms and cultural expectations that you had been raised to follow reared their fangs against the love you cherished so dearly. Who would win?
+~ fangs = true
 
 * [Divert (talk about your d'Urberville history)]
   <> "I fear my history may upset you. To tell you the truth, I-I—am not a Durbeyfield, but a d’Urberville—a descendant of the same family as those that owned the old house we passed. And—we are all gone to nothing!" (modified from Ch. XXX)
@@ -144,7 +146,7 @@ Once you awoke in the evening, you didn't feel any more refreshed than you had i
   Fin. -> END
 
 == Wedding ==
-The day of the wedding was upon you, can donning your wedding gown like a suit of armor you hopped in the carriage {calledAngel} sent for you, prepared to slay the fanged beast.
+The day of the wedding was upon you, can donning your wedding gown like a suit of armor you hopped in the carriage {calledAngel} sent for you{fangs:, prepared to slay the fanged beast.|.}
 You walked into the wedding hall, chock full of not only your family but the Clares too. You walked up to the altar with {calledAngel} and the priest, coming up to his side.
 
 * [Confess to Angel]
